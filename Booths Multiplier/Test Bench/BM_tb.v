@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-/*
+
 module BM_tb();
 
 reg clk,start;
@@ -56,14 +56,14 @@ BM dut(
         #12 start=1;
         #10 start=0;
         
-        #3 A=8'd8;
+        #3 A=8'd4;
         #12 start=1;
        // #3 A=4'd3;//loading multiplicand
         #10 start=0;
         
        // #3 A=4'd3;//loading multiplicand
        
-        #10 A=8'd8;//loading multiplier
+        #10 A=8'd2;//loading multiplier
         #12 start=1;
         //#3 A=4'd2;//loading multiplier
         #10 start=0;
@@ -77,7 +77,7 @@ BM dut(
         
         //#3 A=4'd4;//loading count 
         //#10 A=4'd0;
-        #300 $finish; */
+        #300 $finish; 
        /* #12 start=1;
                 #10 start=0;
                 
@@ -107,8 +107,8 @@ BM dut(
         #10 A=4'd4;
         #10 A=4'd4;
         #10 A=4'd0;
-        #150$finish; 
-       */
-    //end
+        #150$finish; */
+       
+    end
     
-//endmodule 
+endmodule 
