@@ -18,7 +18,6 @@ begin
 #15 data_inM=8'b00000111;data_inQ=8'b11111010;
 #3 start=1;
 #10 start=0;
-//#15 data_inM=4'b0111;data_inQ=4'b0111;
  $display($time,"data_inM=%b,data_inQ=%b,ans=%b",data_inM,data_inQ,ans);
 #300 $finish;
 end
